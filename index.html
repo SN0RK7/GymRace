@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeedForJS</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+        <!--Меню-->
+        <div class="game menu">
+            <div class="score hide"></div>
+            <div class="gameArea hide"></div>
+            <div class="start">
+                Погнали!
+                <button class="button-start">Start</button>
+            </div>
+            <button class="restart hide">Restart!</button>    
+        </div>
+        <!--Музон-->
+        <button class="button-music">
+            <img src="./image/openMusic.png" alt="" class="open-music hide">
+            <img src="./image/closeMusic.png" alt="" class="close-music" >
+        </button>
+        <!--Сложности-->
+        <div class="buttons">
+        <button class="button easy">Easy</button>
+        <button class="button media">Normal</button>
+        <button class="button hard">Hard</button>
+        <button class="button extra">Fucking Slaves</button>
+       </div>
+
+       <button class="home hide">
+           <img src="./image/menu.svg" alt="" class="home-img">
+       </button>
+
+        <audio src="./music/SLAVA MARLOW, MORGENSHTERN - Быстро.mp3" autoplay="autoplay" class='music' loop="loop"></audio>
+
+        <div class="records hide">
+            <h3 class="title-records">Текущий рекорд:</h3>
+            <span class="record-span">0</span>
+        </div>    
+</body>
+</html>
